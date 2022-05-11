@@ -30,3 +30,7 @@ jobs:
     - name: npm run build
       run: npm run build
       working-directory: DotnetTemplate.Web
+
+    - name: npm t
+      run: npm t
+      working-directory: DotnetTemplate.Web
