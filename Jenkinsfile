@@ -16,7 +16,7 @@ pipeline {
 
         stage('Build and Run TypeScript Code and run linter'){
             agent{
-                docker { image 'node:18.1-buster-slim' }
+                docker { image 'node:17-bullseye' }
             }
             steps {
                 dir('DotnetTemplate.Web'){
