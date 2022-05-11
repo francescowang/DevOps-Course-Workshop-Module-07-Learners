@@ -38,7 +38,3 @@ jobs:
     - name: npm run lint
       run: npm run lint
       working-directory: DotnetTemplate.Web
-    
-    - name: dotnet run
-      run: dotnet run
-      working-directory: DotnetTemplate.Web
