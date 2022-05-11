@@ -10,3 +10,9 @@ jobs:
 
     - name: print cow      # Name of step
       run: echo cow           # Command to run
+    
+    - name: Test Javascript Hello Action
+      uses: adeloyedeji/github-actions-hello@v1.0 # from marketplace
+      
+      with:
+        who-to-greet: "Come on Liverpool for Champions League"
