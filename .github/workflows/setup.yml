@@ -16,3 +16,6 @@ jobs:
       
       with:
         who-to-greet: "Come on Liverpool for Champions League"
+
+    - name: build c# code
+      run: dotnet build
