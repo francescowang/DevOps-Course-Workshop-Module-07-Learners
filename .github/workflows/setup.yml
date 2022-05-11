@@ -19,3 +19,6 @@ jobs:
 
     - name: build c# code
       run: dotnet build
+      
+    - name: test c# code
+      run: dotnet test
